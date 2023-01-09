@@ -1,0 +1,87 @@
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.grid {
+    margin-left: 5rem;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.grid h4 {
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.grid h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    line-height: 4rem;
+}
+
+.grid p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;    
+    margin-bottom: 2rem;
+}
+
+.primaryBtn {
+    font-size: 1rem;
+    font-weight: 400;
+    height: 3rem;
+    padding: 0 1rem 0 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.primaryBtn:hover {
+    box-shadow: #a17600 0 0 10px;
+    color: goldenrod;
+    background: white;
+}
+
+.playBtn {
+    font-size: 3rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    color: orangered;
+    border: none;
+    background: white;
+    position: absolute;
+}
+
+.buttons {
+    position: relative;
+    justify-items: center;
+    justify-self: center;
+}
+
+.buttons span {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2rem;
+}
+
+
+.playBtn:hover {
+    background: orange;
+    color: white;
+    box-shadow: #a17600 0 0 10px;
+
+}
+
+.ImgSize {
+    height: 100vh;
+    right: 0;
+    z-index: -1;
+}
+
