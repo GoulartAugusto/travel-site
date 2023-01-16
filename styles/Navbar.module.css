@@ -11,6 +11,7 @@
     font-weight: 500;
     position: fixed;
     background-image: linear-gradient( white, transparent 95%);
+    z-index: 333;
 }
 
 .Links {

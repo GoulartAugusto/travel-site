@@ -2,10 +2,11 @@ import React from 'react';
 import styles from '../styles/Steps.module.css';
 
 import Image from 'next/image';
+import  Rome from '../public/images/destinations-rome.jpg';
 
-import { GrMapLocation } from 'react-icons/gr';
+import { TbMapSearch } from 'react-icons/tb';
 import { TbBeach } from 'react-icons/tb';
-import { IoCarSportOutline } from 'react-icons/io';
+import { FaCar } from 'react-icons/fa';
 
 const Steps = () => {
   return (
@@ -15,24 +16,30 @@ const Steps = () => {
             <h2>Book your next trip in 3 easy steps</h2>
             <div className={styles.items}>
                 <div className={styles.item}>
-                    <button><GrMapLocation /></button>
-                    <h5>Choose Destination</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, harum. Aperiam.</p>
+                    <button style={{backgroundColor: 'goldenrod', color: '#fff'}}><TbMapSearch /></button>
+                    <div>
+                        <h5>Choose Destination</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, harum. Aperiam.</p>
+                    </div>
                 </div>
                 <div className={styles.item}>
-                    <button><TbBeach /></button>
-                    <h5>Make Payment</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, harum. Aperiam.</p>
+                    <button style={{backgroundColor: 'orangered'}}><TbBeach /></button>
+                    <div>
+                        <h5>Make Payment</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, harum. Aperiam.</p>
+                    </div>
                 </div>
                 <div className={styles.item}>
-                    <button><IoCarSportOutline /></button>
-                    <h5>Reach Airport on Selected Date</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, harum. Aperiam.</p>
+                    <button style={{backgroundColor: 'rgb(4, 0, 255)'}}><FaCar /></button>
+                    <div>
+                        <h5>Reach Airport on Selected Date</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, harum. Aperiam.</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section>
-            <Image src='' />
+        <section className={styles.card}>
+            <Image src={Rome} width={320} />
         </section>
     </main>
   )
