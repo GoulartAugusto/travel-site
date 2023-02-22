@@ -83,7 +83,6 @@ const Steps = () => {
             </section>
         </section>
 
-
     </main>
   )
 }
