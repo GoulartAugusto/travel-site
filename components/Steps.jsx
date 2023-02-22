@@ -2,11 +2,17 @@ import React from 'react';
 import styles from '../styles/Steps.module.css';
 
 import Image from 'next/image';
-import  Rome from '../public/images/destinations-rome.jpg';
+import Rome from '../public/images/destinations-rome.jpg';
 
 import { TbMapSearch } from 'react-icons/tb';
 import { TbBeach } from 'react-icons/tb';
 import { FaCar } from 'react-icons/fa';
+
+import LeafIcon from '../public/images/leaf-icon.png';
+import MapIcon from '../public/images/map-icon.png';
+import ShareIcon from '../public/images/share-icon.png';
+
+import MachuPicchu from '../public/images/machu-picchu.jpg';
 
 const Steps = () => {
   return (
@@ -40,7 +46,44 @@ const Steps = () => {
         </section>
         <section className={styles.card}>
             <Image src={Rome} width={320} />
+
+            <h3>Trip to Rome</h3>
+
+            <p>1 - 22 August</p>
+
+            <div className={styles.buttons}>
+                <button>
+                    <Image src={LeafIcon} width={30} height={30} />
+                </button>
+                <button>
+                    <Image src={MapIcon} width={30} height={30} />
+                </button>
+                <button>
+                    <Image src={ShareIcon} width={30} height={30} />
+                </button>
+            </div>
+
+            <div>
+                <p>42 people going</p>
+            </div>
+
+            <section className={styles.littleCard}>
+                <div>
+                    <Image src={MachuPicchu} width={100} />
+                    <p>Ongoing</p>
+                    <h4>Trip to Machu Picchu</h4>
+                
+
+                    <h5><b style={{color:'#4200ac'}}>50%</b> Completed</h5>
+                    
+                    <div className={styles.progress}>
+                        <div className={styles.progressBar}></div>
+                    </div>
+                </div>
+            </section>
         </section>
+
+
     </main>
   )
 }
