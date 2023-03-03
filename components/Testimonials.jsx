@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../styles/Testimonials.module.css';
 
 import Image from 'next/image';
 import User from '../public/images/user-img.jpg';
 
-import { AiOutlineArrowUp, AiOutlineArrowDown } from 'react-icons/ai'
+import { AiOutlineArrowUp, AiOutlineArrowDown } from 'react-icons/ai';
+import CardScroller from './CardScroller';
+
+{/*
+    Create a JSON file with users informations, userIMG, opinionTxt, userName, userInfo
+    
+    Then with useState() create a toggler to change the card that is visible
+
+    depending on wich button is clicked, up or down, or the circles will change the card wich is visible
+
+*/}
+
 
 
 const Testimonials = () => {
@@ -21,8 +32,9 @@ const Testimonials = () => {
                 <button type='submit'></button>
             </section>
         </section>
+{/*
+        <section className={styles.card}>
 
-        <section className={styles.card} id='myCard'>
             <div className={styles.userImg}>
                 <Image src={User} width={80} height={80} />
             </div>
@@ -36,11 +48,13 @@ const Testimonials = () => {
 
         </section>
 
-        <section className={styles.toggleBtn}>
+        <section className={styles.scrollerBtn}>
             <button><AiOutlineArrowUp /></button>
             <button><AiOutlineArrowDown /></button>
         </section>
+*/}
 
+        <CardScroller />
 
     </main>
   )
