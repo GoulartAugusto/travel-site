@@ -56,8 +56,8 @@ function Card({ userImg, content, userName, title }) {
   function CardScroller() {
     const cards = [
       { userName: "Augusto Goulart", title:"CEO of ARS Corp." , userImg: "/images/user-img.jpg", content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ad tempora ducimus molestiae eos quos." },
-      { userName: "John Doe", title:"CEO of JD Corp." , userImg: "/images/user-img.jpg", content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ad tempora ducimus molestiae eos quos." },
-      { userName: "Robert N. Marley", title:"CEO of Waylers" , userImg: "/images/user-img.jpg", content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ad tempora ducimus molestiae eos quos." },
+      { userName: "John Wick", title:"CEO of JW SA." , userImg: "/images/user-img03.jpg", content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ad tempora ducimus molestiae eos quos." },
+      { userName: "Robert N. Marley", title:"CEO of Waylers" , userImg: "/images/user-img02.jpg", content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ad tempora ducimus molestiae eos quos." },
     ];
   
     return <Scroller cards={cards} />;

@@ -1,0 +1,33 @@
+.content {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    height: 50vh;
+
+    gap: 4rem;
+}
+
+.companyLogo {
+    height: 40px;
+    width: 150px;
+
+
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+
+.companyLogo:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+
+    border-radius: 10px;
+
+    transition: ease 0.5s;
+
+    box-shadow: 10px 5px 50px 5px rgb(255, 218, 137);
+
+
+}
