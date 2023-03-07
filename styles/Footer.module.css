@@ -1,0 +1,143 @@
+.footer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+
+}
+
+.footerTop {
+    background: rgba(0, 128, 128, 0.199);
+    margin-left: 8rem;
+
+
+    height: 300px;
+    width: 80vw;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.footerTop h2 {
+
+    width: 50vw;
+    font-weight: 400;
+    margin-bottom: 2rem;
+
+}
+
+.footerInput {
+    color: white;
+    height: 3rem;
+    width: 280px;
+    border: none;
+}
+
+.footerPrivacy {
+    color: white;
+    margin-top: 1rem;
+}
+
+.footerPrivacy > a {
+    color: white;
+}
+
+.footerSocials {
+    color: white;
+    margin-top: 2rem;
+    font-size: 2rem;
+    align-items: center;
+    letter-spacing: 2rem;
+}
+
+.footerBottom {
+    margin-top: 2rem;
+    color: black;
+    text-decoration: none;    
+}
+
+.footerLists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    line-height: 2rem;
+}
+
+.footerLists h4 {
+    margin-bottom: 1rem;
+}
+
+.firstList {
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+.firstList li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.secondList {
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+.secondList li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.thirtList {
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+.thirtList li > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.footerRights {
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 4rem;
+
+    margin-top: 3rem;
+}
+
+.footerRights > a {
+    color: goldenrod;
+}
+
+.logoList {
+    list-style: none;
+    width: 140px;
+    line-height: 1rem;
+}
+
+.primaryBtn {
+    font-size: 1rem;
+    font-weight: 400;
+    height: 3rem;
+    padding: 0 1rem 0 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.primaryBtn:hover {
+    box-shadow: #a17600 0 0 10px;
+    color: goldenrod;
+    background: white;
+}
