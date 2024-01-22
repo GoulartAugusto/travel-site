@@ -20,25 +20,25 @@ const Services = () => {
         <section className={styles.cards}>
 
             <div className={styles.card}>
-                <Image src={Weather} width={120} />
+                <Image alt="Weather" src={Weather} width={120} />
                 <h3>Calculated Weather</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
             </div>
 
             <div className={styles.card}>
-                <Image src={Flights} width={120} />
+                <Image alt="Flights" src={Flights} width={120} />
                 <h3>Best Flights</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
             </div>
 
             <div className={styles.card}>
-                <Image src={Events} width={120} />
+                <Image alt="Events" src={Events} width={120} />
                 <h3>Local Events</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
             </div>
 
             <div className={styles.card}>
-                <Image src={Customized} width={120} />
+                <Image alt="Customized" src={Customized} width={120} />
                 <h3>Customized Experience</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
             </div>

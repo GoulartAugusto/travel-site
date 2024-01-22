@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../styles/Testimonials.module.css';
 
-import Image from 'next/image';
 
 import { AiOutlineArrowUp, AiOutlineArrowDown } from 'react-icons/ai';
 import CardScroller from './CardScroller';

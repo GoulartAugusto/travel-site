@@ -18,7 +18,7 @@ const Hero = () => {
                 <span><button className={styles.playBtn}><AiFillPlayCircle /></button><Link href='/' style={{ marginLeft: '3.5rem' }}>Play Demo</Link></span>
             </div>
         </div>
-        <Image src={HeroImg} alt='' className={styles.ImgSize} />
+        <Image alt="traler woman" src={HeroImg} className={styles.ImgSize} />
     </main>
   )
 }

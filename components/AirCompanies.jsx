@@ -15,20 +15,20 @@ const AirCompanies = () => {
   return (
     <main className={styles.content}>
         <Link href="https://google.com" target="_blank">
-            <Image src={Qatar} className={styles.companyLogo} />
+            <Image alt="aero company Qatar" src={Qatar} className={styles.companyLogo} />
         </Link>
 
         <Link href="https://google.com" target="_blank">
-            <Image src={Latam} className={styles.companyLogo} />
+            <Image alt="aero company Latam"  src={Latam} className={styles.companyLogo} />
         </Link>
         <Link href="https://google.com" target="_blank">
-            <Image src={Expedia} className={styles.companyLogo} />
+            <Image alt="aero company Expedia" src={Expedia} className={styles.companyLogo} />
         </Link>
         <Link href="https://google.com" target="_blank">
-            <Image src={Qantas} className={styles.companyLogo} />
+            <Image alt="aero company Qantas" src={Qantas} className={styles.companyLogo} />
         </Link>
         <Link href="https://google.com" target="_blank">
-            <Image src={Alitalia} className={styles.companyLogo} />
+            <Image alt="aero company Alitalia" src={Alitalia} className={styles.companyLogo} />
         </Link>
 
     </main>

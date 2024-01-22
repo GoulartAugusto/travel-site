@@ -9,7 +9,7 @@ function Card({ userImg, content, userName, title }) {
             <section className={styles.card}>
   
               <div className={styles.userImg}>
-                  <Image src={userImg} width={80} height={80} />
+                  <Image alt={userName} src={userImg} width={80} height={80} />
               </div>
   
               <div className={styles.userOpinion}>

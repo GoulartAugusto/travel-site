@@ -28,7 +28,7 @@ const Footer = () => {
         <section className={styles.footerBottom}>
             <div className={styles.footerLists}>
                 <ul className={styles.logoList}>
-                    <li><Link href="#"><Image src={Logo} height={80} /></Link></li>
+                    <li><Link href="#"><Image alt="Page Logo" src={Logo} height={80} /></Link></li>
                     <li><small>Book your trip in minute, get full Control for much longer.</small></li>
                 </ul>
                 <ul className={styles.firstList}>

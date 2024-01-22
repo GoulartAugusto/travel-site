@@ -45,7 +45,7 @@ const Steps = () => {
             </div>
         </section>
         <section className={styles.card}>
-            <Image src={Rome} width={320} />
+            <Image alt="Rome" src={Rome} width={320} />
 
             <h3>Trip to Rome</h3>
 
@@ -53,13 +53,13 @@ const Steps = () => {
 
             <div className={styles.buttons}>
                 <button>
-                    <Image src={LeafIcon} width={30} height={30} />
+                    <Image alt="Left" src={LeafIcon} width={30} height={30} />
                 </button>
                 <button>
-                    <Image src={MapIcon} width={30} height={30} />
+                    <Image alt="Map" src={MapIcon} width={30} height={30} />
                 </button>
                 <button>
-                    <Image src={ShareIcon} width={30} height={30} />
+                    <Image alt="Share" src={ShareIcon} width={30} height={30} />
                 </button>
             </div>
 
@@ -69,7 +69,7 @@ const Steps = () => {
 
             <section className={styles.littleCard}>
                 <div>
-                    <Image src={MachuPicchu} width={100} />
+                    <Image alt="Machu Picchu" src={MachuPicchu} width={100} />
                     <p>Ongoing</p>
                     <h4>Trip to Machu Picchu</h4>
                 
