@@ -22,7 +22,7 @@ const TopDestinations = () => {
         <section className={styles.cards}>
 
             <motion.div className={styles.card} whileHover={{ scale: 1.1 }}>
-                <Image src={Rome} width={220} height={300} className={styles.ImgSizing} />
+                <Image alt="Rome" src={Rome} width={220} height={300} className={styles.ImgSizing} />
                 <div className={styles.firstline}>
                     <p className={styles.destination}>Rome, Italy</p>
                     <p className={styles.price}>$7.369</p>
@@ -31,7 +31,7 @@ const TopDestinations = () => {
             </motion.div>
 
             <motion.div className={styles.card} whileHover={{ scale: 1.1 }}>
-                <Image src={London} width={220} height={300} className={styles.ImgSizing} />
+                <Image alt="London" src={London} width={220} height={300} className={styles.ImgSizing} />
                 <div className={styles.firstline}>
                     <p className={styles.destination}>London, UK</p>
                     <p className={styles.price}>$4.963</p>
@@ -40,7 +40,7 @@ const TopDestinations = () => {
             </motion.div>
 
             <motion.div className={styles.card} whileHover={{ scale: 1.1 }}>
-                <Image src={Europe} width={220} height={300} className={styles.ImgSizing} />
+                <Image alt="Europe" src={Europe} width={220} height={300} className={styles.ImgSizing} />
                 <div className={styles.firstline}>
                     <p className={styles.destination}>Full Europe</p>
                     <p className={styles.price}>$18.000</p>

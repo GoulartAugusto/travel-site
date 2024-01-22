@@ -51,7 +51,7 @@ const Footer = () => {
                 </ul>
             </div>
 
-            <p className={styles.footerRights}>All rights reserved &copy; <a href='https://goulartportifolio.web.app/' target='_blank'>Augusto Goulart</a></p>
+            <p className={styles.footerRights}>All rights reserved &copy; <a href='https://goulartportifolio.web.app/' target='_blank' rel="noopener noreferrer">Augusto Goulart</a></p>
       </section>
     </main>
   )
